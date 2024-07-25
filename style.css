@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(33, 126, 219, 0.866);
+    color: white;
+    font: normal 10pt Arial;
+}
+header > h1{
+    text-align: center;
+}
+main{
+    width: 500px;
+    height: 210px;
+    margin: 0 auto;
+    padding: 15px;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.433);
+}
+main > p > input{
+    margin-left: 5px;
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
+footer > a{
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+}
